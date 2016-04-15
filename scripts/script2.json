@@ -1,0 +1,119 @@
+{"YazCANScript": {
+"groups": [
+{
+"name": "Example name group 1 script 2",
+"description": "Example description grp 1 scr 2",
+"delay": 1500,
+"messages": [
+    {
+        "dbc_name": "CCAN",
+        "name": "CGW1",
+        "id": 1345,
+        "period": 1500,
+        "signals": [
+        {
+            "name": "CF_Gway_TurnSigRh", "value": 0 },
+        {
+            "name": "CF_Gway_ParkBrakeSw", "value": 0 },
+        {
+            "name": "CF_Gway_Ign2", "value": 1 }]},
+    {
+        "dbc_name": "CCAN",
+        "name": "CLU11",
+        "id": 1265,
+        "period": 25000,
+        "signals": [
+        { 
+        "name": "CF_Clu_CruiseSwState", "value": 0 },
+        {
+         "name": "CF_Clu_CruiseSwMain", "value": 1 },
+        {
+         "name": "CF_Clu_SldMainSW", "value": 1 }]},
+    {
+        "dbc_name": "CCAN",
+        "name": "LCA11",
+        "id": 1419,
+        "period": 175000,
+        "signals": [
+        {
+         "name": "CF_Lca_Stat", "value": 12},
+        {
+        "name": "CF_Rcta_Stat", "value": 11},
+        {
+        "name": "CF_Lca_IndLeft", "value": 2}]},
+    {
+        "dbc_name": "CCAN",
+        "name": "LKAS11",
+        "id": 832,
+        "period": 500000,
+        "signals": [
+        { 
+        "name": "CF_Lkas_LdwsSysState", "value": 12},
+        { 
+        "name": "CF_Lkas_SysWarning", "value": 9},
+        {
+        "name": "CF_Lkas_LdwsLHWarning", "value": 3}]}],
+"custom_messages": [
+    {
+        "id": 1532,
+        "dlc": 8,
+        "period": 250000,
+        "bytes" : [ 
+        125,
+        129,
+        55,
+        88,
+        69,
+        15,
+        16,
+        13]},
+    {
+        "id": 1532,
+        "dlc": 6,
+        "period": 0,
+        "bytes" : [
+         22,
+         15,
+         34,
+         67,
+         85,
+         29,
+         0,
+         0]}]},
+{
+"name": "Example name grp 2 scr 2",
+"description": "Example descr grp 2 scr 2",
+"delay": 1500,
+"messages": [
+    {
+        "dbc_name": "CCAN",
+        "name": "CGW1",
+        "id": 1345,
+        "period": 0,
+        "signals": [
+        {
+        "name": "CF_Gway_TurnSigRh", "value": 0},
+        {
+        "name": "CF_Gway_ParkBrakeSw", "value": 1},
+        {
+        "name": "CF_Gway_Ign2", "value": 1}]},
+    {
+        "dbc_name": "CCAN",
+        "name": "CLU11",
+        "id": 1265,
+        "period": 0,
+        "signals": null},
+    {
+        "dbc_name": "CCAN",
+        "name": "LCA11",
+        "id": 1419,
+        "period": 0,
+        "signals": null},
+    {
+        "dbc_name": "CCAN",
+        "name": "LKAS11",
+        "id": 832,
+        "period": 0,
+        "signals": null}],
+
+"custom_messages": null}]}}

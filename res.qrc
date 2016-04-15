@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/buttons">
+        <file alias="playIcon">res/BtnPlay.ico</file>
+        <file alias="stopIcon">res/BtnStop.ico</file>
+        <file alias="pauseIcon">res/BtnPause.ico</file>
+        <file alias="prevIcon">res/BtnFirst.ico</file>
+        <file alias="nextIcon">res/BtnLast.ico</file>
+        <file alias="refreshIcon">res/BtnRefresh.ico</file>
+    </qresource>
+</RCC>
